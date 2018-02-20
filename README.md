@@ -1,7 +1,7 @@
 # Project-1
 CS 4331
 
-Short Video Demo:
+Short Demo Video:
 https://youtu.be/w01mqrhPyck
 
 Live Demo link:
