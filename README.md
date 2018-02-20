@@ -1,7 +1,10 @@
 # Project-1
 CS 4331
 
-Demo link:
+Short Video Demo:
+https://youtu.be/w01mqrhPyck
+
+Live Demo link:
 https://jakobdozier.github.io/Project-1/Project1/Project1.html
 
 
@@ -23,7 +26,9 @@ The rest of the models are .glft models.
 
 3D model links
 bed - https://sketchfab.com/models/96ed3f6ba55848809dfa8cd505edddae
+
 bookshelf - https://sketchfab.com/models/b8f46cf7daca419a87ac8d131bad056f
+
 couch - https://sketchfab.com/models/3da5fdf7e59c466eba4a810240e3e12c
 desk_chair - https://sketchfab.com/models/3177fdf2630c4922a43fecb876d96e1d
 flat_screen_tv - https://sketchfab.com/models/cc1d40351d294f6d99ee12dbd852c17c
