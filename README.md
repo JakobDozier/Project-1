@@ -30,13 +30,21 @@ bed - https://sketchfab.com/models/96ed3f6ba55848809dfa8cd505edddae
 bookshelf - https://sketchfab.com/models/b8f46cf7daca419a87ac8d131bad056f
 
 couch - https://sketchfab.com/models/3da5fdf7e59c466eba4a810240e3e12c
+
 desk_chair - https://sketchfab.com/models/3177fdf2630c4922a43fecb876d96e1d
+
 flat_screen_tv - https://sketchfab.com/models/cc1d40351d294f6d99ee12dbd852c17c
+
 gas_oven - https://sketchfab.com/models/9a4b89d7ff5c482dae835df596fdcc2f
+
 laptop - https://sketchfab.com/models/9a960986f0cc49f99a0afdfb486ec859
+
 recliner - https://sketchfab.com/models/90af9d39869f407e8d4e3ef9531f693e
+
 sofa - https://sketchfab.com/models/505e808469ac4d3aa853097df67de102
+
 tv_stand -https://sketchfab.com/models/fc130ca7eb6f4920afc3943e63c23ffa
+
 
 There are two interactable object:
   The globe
