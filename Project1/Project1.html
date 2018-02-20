@@ -1,0 +1,121 @@
+<html>
+	<head>
+		<script src = "js/aframe.min.js"></script>
+		<script src = "https://cdn.rawgit.com/donmccurdy/aframe-extras/v3.3.0/dist/aframe-extras.min.js"></script>
+		
+	</head>
+	
+	<body>
+		<a-scene physics = "gravity: 0">
+		
+			<!--Camera-->
+			<a-entity universal-controls kinematic-body position = "-6 6 37" rotation = "0 0 0" camera = "userHeight: 0">
+				<a-entity raycaster = "far: 150; objects: .intersectable" cursor geometry = "primitive: ring; radiusOuter: 0.015; radiusInner: 0.01; segmentsTheta: 32" material = "color: #283644; shader: flat" position = "0 0 -0.75" rotation = "" scale = "" visible = ""></a-entity>
+			</a-entity>
+			
+			<!--Floor-->
+			<a-entity static-body = "" geometry = "primitive: box; depth: 80; height: 0.1; width: 50" position = "0 -0.5 5" rotation = " 0 0 0" material = "shader: standard; roughness: 1; src: url(img/floor.jpg); repeat: 10 2" scale = "" visible = ""></a-entity>
+			
+			<!--Rug-->
+			<a-entity static-body = "" geometry = "primitive: box; depth: 25; height: 0.1; width: 13" position = "-12.2 -0.38 -15.6" rotation = " 0 0 0" material = "shader: standard; roughness: 1; src: url(img/rug.jpg); repeat: 10 2" scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 25; height: 0.1; width: 13" position = "-17.4 -0.38 24.68" rotation = " 0 0 0" material = "shader: standard; roughness: 1; src: url(img/rug.jpg); repeat: 10 2" scale = "" visible = ""></a-entity>
+
+			<!--Outside Walls-->
+			<a-entity static-body = "" geometry = "primitive: box; depth: 1.1; height: 14; width: 50" position = "0 6.2 45" rotation = " 0 0 0" material = "shader: standard; roughness: 1; src: url(img/wall.jpg); repeat: 8 4" scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 1.1; height: 14; width: 50" position = "0 6.2 -35.4" rotation = " 0 0 0" color = "gray" material = "shader: standard; roughness: 1; src: url(img/wall.jpg); repeat: 8 4" scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 1.1; height: 14; width: 80" position = "25 6.2 5" rotation = " 0 90 0" material = "shader: standard; roughness: 1; src: url(img/wall.jpg); repeat: 8 4" scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 1.1; height: 14; width: 80" position = "-25 6.2 5" rotation = " 0 90 0" material = "shader: standard; roughness: 1; src: url(img/wall.jpg); repeat: 8 4" scale = "" visible = ""></a-entity>			
+			
+			<!--Inside Walls-->
+			<a-entity static-body = "" geometry = "primitive: box; depth: 1; height: 14; width: 27" position = "12 6.2 10" rotation = " 0 0 0" material = "shader: standard; roughness: 1; src: url(img/wall.jpg); repeat: 4 2" scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 1; height: 14; width: 39" position = "-0.96 6.2 -15.9" rotation = " 0 90 0" material = "shader: standard; roughness: 1; src: url(img/wall.jpg); repeat: 4 2" scale = "" visible = ""></a-entity>
+			
+			<!--Ceiling-->
+			<a-entity static-body = "" geometry = "primitive: box; depth: 80; height: 0.1; width: 50" position = "0 13.26 5" rotation = " 0 0 0" material = "shader: standard; roughness: 1; src: url(img/ceiling.jpg); repeat: 10 2" scale = "" visible = ""></a-entity>
+
+			<!--Refrigerator-->
+			<a-entity static-body = "" geometry = "primitive: box; depth: 5.5; height: 9; width: 5" position = "23 4 13.8" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/refrigerator.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.05; height: 9; width: 5" position = "23 4 16.55" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/refrigerator2.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.05; height: 9; width: 5" position = "23 4 11.05" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/refrigerator2.jpg); repeat: " scale = "" visible = ""></a-entity>
+			
+			<!--Cabinets--> 
+			<a-entity static-body = "" geometry = "primitive: box; depth: 12; height: 3.8; width: 5" position = "23 1.5 23" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/cabinet.jpg); repeat: 4" scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 12.2; height: 0.2; width: 6" position = "23 3.5 23" rotation = " 0 0 0" material = "shader: standard; roughness: 1; src: url(img/granite.jpg); repeat: 4 2" scale = "" visible = ""></a-entity>			
+			<a-entity static-body = "" geometry = "primitive: box; depth: 10; height: 3.8; width: 5" position = "23 1.5 39.55" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/cabinet.jpg); repeat: 3" scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 11.2; height: 0.2; width: 6" position = "23 3.5 40" rotation = " 0 0 0" material = "shader: standard; roughness: 1; src: url(img/granite.jpg); repeat: 4 2" scale = "" visible = ""></a-entity>
+			
+			<!--BarTop-->
+			<a-entity static-body = "" geometry = "primitive: box; depth: 12; height: 3.8; width: 5" position = "7 1.5 29" rotation = " 0 0 0" material = "shader: standard; roughness: 1; src: url(img/cabinet.jpg); repeat: 4 " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 13; height: 0.2; width: 6" position = "7 3.5 29" rotation = " 0 0 0" material = "shader: standard; roughness: 1; src: url(img/granite.jpg); repeat: 4 2" scale = "" visible = ""></a-entity>
+			
+			<!--Table-->
+			<a-entity static-body = "" geometry = "primitive: box; depth: 8; height: 0.5; width: 8" position = "-17.3 3.1 26" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.5; height: 3.3; width: 0.5" position = "-20.55 1.3 29.6" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.5; height: 3.3; width: 0.5" position = "-20.55 1.3 22.6" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.5; height: 3.3; width: 0.5" position = "-14.05 1.3 29.6" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.5; height: 3.3; width: 0.5" position = "-14.05 1.3 22.6" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			
+			<!--Chair1-->
+			<a-entity static-body = "" geometry = "primitive: box; depth: 2; height: 0.5; width: 3" position = "-17.3 1.4 32" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.5; height: 1.9; width: 0.5" position = "-18.5 0.451 31.3" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.5; height: 5.1; width: 0.5" position = "-18.5 1.955 32.7" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.5; height: 1.9; width: 0.5" position = "-16.1 0.451 31.3" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.5; height: 5.1; width: 0.5" position = "-16.1 1.955 32.7" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.55; height: 1.6; width: 3" position = "-17.3 3.8 32.7" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			
+			<!--Chair2-->
+			<a-entity static-body = "" geometry = "primitive: box; depth: 2; height: 0.5; width: 3" position = "-17.3 1.4 20" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.5; height: 5.1; width: 0.5" position = "-18.5 1.955 19.3" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.5; height: 1.9; width: 0.5" position = "-18.5 0.451 20.7" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.5; height: 5.1; width: 0.5" position = "-16.1 1.955 19.3" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.5; height: 1.9; width: 0.5" position = "-16.1 0.451 20.7" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.55; height: 1.6; width: 3" position = "-17.3 3.8 19.3" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			
+			<!--Stove-->
+			<a-gltf-model src = "model/gas_oven/scene.gltf" position = "21.99 1.756 31.72" scale = "-0.13 -0.09 -0.10" rotation = "180 0 0" cross origin = "anonymous"></a-gltf-model>
+			
+			<!--Bed-->
+			<a-gltf-model src = "model/bed_agape/scene.gltf" position = "14.54 -0.8 -25.9" scale = "-0.08 -0.09 -0.10" rotation = "180 180 0" cross origin = "anonymous"></a-gltf-model>
+			
+			<!--TVstand and TV-->
+			<a-gltf-model src = "model/tv_stand/scene.gltf" position = "-22.5 1.854 -14.6" scale = "10.57 5.694 8.03" rotation = "180 90 0" cross origin = "anonynous"></a-gltf-model>
+			<a-gltf-model src = "model/flat_screen_tv/scene.gltf" position = "-22.7 1.816 -7.75" scale = "-0.33 -0.31 0.35" rotation = "180 270 0" cross origin = "anonynous"></a-gltf-model>
+			
+			<!--Couch-->
+			<a-gltf-model src = "model/sofa/scene.gltf" position = "-3.91 -0.51 -14.7" scale = "-8.83 -6.04 6" rotation = "180 90 0" cross origin = "anonymous"></a-gltf-model>
+			<a-gltf-model src = "model/recliner/scene.gltf" position = "-10.9 -0.82 -27.8" scale = "-7.34 -7.56 5.89" rotation = "180 140 0" cross origin = "anonynous"></a-gltf-model>
+
+			<!--DeskChair-->
+			<a-gltf-model src = "model/desk_chair/scene.gltf" position = "15.58 0.166 6.221" scale = "-1.01 -0.65 0.59" rotation = "180 0 0" cross origin = "anonymous"></a-gltf-model>
+
+			<!--Desk-->
+			<a-entity static-body = "" geometry = "primitive: box; depth: 4; height: 0.5; width: 8" position = "15.58 3.136 7.399" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/desk.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.5; height: 3.7; width: 0.5" position = "11.99 1.4 5.813" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.5; height: 3.7; width: 0.5" position = "19.28 1.4 5.890" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.5; height: 3.7; width: 0.5" position = "19.28 1.4 8.895" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+			<a-entity static-body = "" geometry = "primitive: box; depth: 0.5; height: 3.7; width: 0.5" position = "11.99 1.4 8.895" rotation = "0 0 0" material = "shader: standard; roughness: 1; src: url(img/table.jpg); repeat: " scale = "" visible = ""></a-entity>
+
+			<!--Laptop-->
+			<a-gltf-model src = "model/laptop/scene.gltf" position = "15.58 3.475 7.399" scale = "-2.36 -1.7 1.270" rotation = "180 0 0" cross origin = "anonymous"></a-gltf-model>
+
+			<!--Bookshelf-->
+			<a-gltf-model src = "model/bookshelf/scene.gltf" position = "-23.1 4.731 5.732" scale = "-0.31 -0.31 0.3" rotation = "180 270 0" cross origin = "anonymous"></a-gltf-model>
+
+			<!--Globe-->
+			<a-sphere class = "intersectable" position = "7 4.5 34" radius = "1.1" rotation = "0 0 0" src = "img/globe.jpg">
+				<a-animation begin = "click" attribute = "rotation" from = "0 0 0" to = "0 360 0" dur = "3000"></a-animation>
+			</a-sphere>
+			
+			<!--Lights-->
+			<a-light type = "ambient" color = "white" position = "-15 11.84 39.54" angle = "90" decay = "1" intensity = "1"></a-light>
+			
+			<!--Sound-->
+			<a-box material = "transparent: true; opacity: 0" depth = "13.75" height = "7.5" width = "0.5" position = "-22.3 6.59 -14.7" sound = "src: url(audio/tv-static.mp3); on: click" class = "intersectable"></a-box> 
+			
+			<!--Text-->
+			<a-text value = "Click the globe" color = "red" rotation = "0 270 0" position = "7 5 30" scale = "2 2 2"></a-text>
+			<a-text value = "Click the TV" color = "red" rotation = "0 90 0" position = "-22.7 5.5 -5.25" scale = "2 2 2"></a-text>
+			
+		</a-scene>
+	</body>
+</html> 
