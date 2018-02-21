@@ -1,11 +1,11 @@
 # Project-1
-CS 4331
+# CS 4331
 
-Short Demo Video:
+# Short Demo Video:
 
 https://youtu.be/w01mqrhPyck
 
-Live Demo link:
+# Live Demo link:
 
 https://jakobdozier.github.io/Project-1/Project1/Project1.html
 
