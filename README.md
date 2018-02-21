@@ -2,9 +2,11 @@
 CS 4331
 
 Short Demo Video:
+
 https://youtu.be/w01mqrhPyck
 
 Live Demo link:
+
 https://jakobdozier.github.io/Project-1/Project1/Project1.html
 
 
