@@ -11,6 +11,7 @@ https://jakobdozier.github.io/Project-1/Project1/Project1.html
 I created this VR space using HTML, Javascript, and A-frame.
 
 I then made a floor to start the foundation of the house using the a-entity tag with a box shape.
+![alt text](https://raw.githubusercontent.com/jakobdozier/Project-1/Project1
 
 After getting the foundation to the right size i then made the outside walls. To make these I used the a-entity tag and gave it the box shape with a width, depth, and height. I then made them look more realistic by adding a texture to these walls. 
 
