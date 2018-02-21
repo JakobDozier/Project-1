@@ -57,7 +57,7 @@ tv_stand -https://sketchfab.com/models/fc130ca7eb6f4920afc3943e63c23ffa
 ![alt text](screenshots/pic8.png)
 
 
-# There are two interactable object:
+# There are two interactable objects:
 
   The globe - which spins when clicked on.
   ![alt text](screenshots/pic2.png)
@@ -65,4 +65,4 @@ tv_stand -https://sketchfab.com/models/fc130ca7eb6f4920afc3943e63c23ffa
   The television - which makes a static sound when clicked on.
   ![alt text](screenshots/pic8.png)
 
- These are marked by read text telling the player to click on either of the objects in red. 
+ These are marked by red text telling the player to click on either of the objects. 
