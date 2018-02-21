@@ -27,7 +27,7 @@ The kitchen cabinets were also made with the a-entity tag with a cabinet texture
 
 The rest of the models are .glft models.
 
-3D model links
+# 3D model links
 
 bed - https://sketchfab.com/models/96ed3f6ba55848809dfa8cd505edddae
 ![alt text](screenshots/pic10.png)
@@ -57,7 +57,7 @@ tv_stand -https://sketchfab.com/models/fc130ca7eb6f4920afc3943e63c23ffa
 ![alt text](screenshots/pic8.png)
 
 
-There are two interactable object:
+# There are two interactable object:
 
   The globe - which spins when clicked on.
   ![alt text](screenshots/pic2.png)
