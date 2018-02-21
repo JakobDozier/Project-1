@@ -35,26 +35,20 @@ bed - https://sketchfab.com/models/96ed3f6ba55848809dfa8cd505edddae
 bookshelf - https://sketchfab.com/models/b8f46cf7daca419a87ac8d131bad056f
 ![alt text](screenshots/pic6.png)
 
-recliner - https://sketchfab.com/models/90af9d39869f407e8d4e3ef9531f693e
-![alt text](screenshots/pic7.png)
-
-desk_chair - https://sketchfab.com/models/3177fdf2630c4922a43fecb876d96e1d
-![alt text](screenshots/pic9.png)
-
 flat_screen_tv - https://sketchfab.com/models/cc1d40351d294f6d99ee12dbd852c17c
+tv_stand -https://sketchfab.com/models/fc130ca7eb6f4920afc3943e63c23ffa
 ![alt text](screenshots/pic8.png)
 
 gas_oven - https://sketchfab.com/models/9a4b89d7ff5c482dae835df596fdcc2f
 ![alt text](screenshots/pic4.png)
 
+desk_chair - https://sketchfab.com/models/3177fdf2630c4922a43fecb876d96e1d
 laptop - https://sketchfab.com/models/9a960986f0cc49f99a0afdfb486ec859
 ![alt text](screenshots/pic9.png)
 
+recliner - https://sketchfab.com/models/90af9d39869f407e8d4e3ef9531f693e
 sofa - https://sketchfab.com/models/505e808469ac4d3aa853097df67de102
 ![alt text](screenshots/pic7.png)
-
-tv_stand -https://sketchfab.com/models/fc130ca7eb6f4920afc3943e63c23ffa
-![alt text](screenshots/pic8.png)
 
 
 # There are two interactable objects:
