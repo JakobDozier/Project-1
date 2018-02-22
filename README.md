@@ -30,6 +30,12 @@ The kitchen cabinets were also made with the a-entity tag with a cabinet texture
 
 The rest of the models are .glft models.
 
+ There are 20 models total and 16 unique models.
+ 
+ 11 are models made with a-frame geometry.
+ 
+ 9 are imported .gltf models.
+
 # 3D model links
 
 bed - https://sketchfab.com/models/96ed3f6ba55848809dfa8cd505edddae
@@ -67,6 +73,3 @@ sofa - https://sketchfab.com/models/505e808469ac4d3aa853097df67de102
 
  These are marked by red text telling the player to click on either of the objects. 
  
- There are 20 models total and 16 unique models.
- 11 are models made with a-frame geometry
- 9 are imported .gltf models
