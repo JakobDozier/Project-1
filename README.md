@@ -23,8 +23,10 @@ I then made walls on the inside in order to make rooms inside my house. The same
 I then began to decorate the house.
 
 The dining table and chairs were made using multiple a-entity tags and a wooden texture applied to them. 
+![alt text](screenshot/pic5.png)
 
 The kitchen cabinets were also made with the a-entity tag with a cabinet texture applied to them. 
+![alt text](screenshot/pic4.png)
 
 The rest of the models are .glft models.
 
@@ -64,3 +66,7 @@ sofa - https://sketchfab.com/models/505e808469ac4d3aa853097df67de102
   ![alt text](screenshots/pic8.png)
 
  These are marked by red text telling the player to click on either of the objects. 
+ 
+ There are 20 models total and 16 unique models.
+ 11 are models made with a-frame geometry
+ 9 are imported .gltf models
