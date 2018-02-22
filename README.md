@@ -23,10 +23,10 @@ I then made walls on the inside in order to make rooms inside my house. The same
 I then began to decorate the house.
 
 The dining table and chairs were made using multiple a-entity tags and a wooden texture applied to them. 
-![alt text](screenshot/pic5.png)
+![alt text](screenshots/pic5.png)
 
 The kitchen cabinets were also made with the a-entity tag with a cabinet texture applied to them. 
-![alt text](screenshot/pic4.png)
+![alt text](screenshots/pic4.png)
 
 The rest of the models are .glft models.
 
